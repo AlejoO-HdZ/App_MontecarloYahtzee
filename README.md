@@ -12,7 +12,7 @@ El objetivo es mostrar cómo se pueden simular partidas de Yahtzee, acumular res
 
 ---
 
-## 🚀 Instalación
+## 🚀 Instalación:
 
 ### Requisitos previos
 - Python 3.x instalado en tu sistema.
