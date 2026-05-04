@@ -1,8 +1,6 @@
 """
 analysis.py
-
 Funciones de análisis y visualización para la actividad Montecarlo Yahtzee.
-
 Incluye:
 - Estadística teórica para un dado justo (1..6).
 - Funciones de graficado:
@@ -12,7 +10,6 @@ Incluye:
 - Función que devuelve la descripción probabilística
   junto con los resultados numéricos para mostrar en la GUI o en el informe.
 """
-
 from collections import Counter
 import math
 import matplotlib.pyplot as plt

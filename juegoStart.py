@@ -8,12 +8,10 @@ Incluye:
 - Clases de estado: PlayerState, GameStats, GameState.
 - Flujo de juego: play_one_turn, play_game (sin prints; acepta logger opcional).
 """
-
 import random
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from typing import List, Dict, Optional, Tuple
-
 # -------------------------------
 # Constantes de categorías
 # -------------------------------
@@ -22,7 +20,6 @@ CATEGORIES_ORDER = [
     "threeOfKind","fourOfKind","fullHouse","smallStraight",
     "largeStraight","yahtzee","chance"
 ]
-
 # -------------------------------
 # Utilidades de dados
 # -------------------------------

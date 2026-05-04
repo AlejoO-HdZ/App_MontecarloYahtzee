@@ -6,7 +6,6 @@ Contiene:
 - all_keep_masks(): genera las 32 máscaras de bloqueo.
 - simulate_expected_value_after_keeps(): estima EV por Montecarlo.
 - choose_keep_mask_montecarlo(): selecciona la máscara con mayor EV.
-
 Notas:
 - Mantiene la aproximación 1-step (no reevalúa máscaras durante los rerolls).
 - Convención de rolls_remaining:(se resta 1 internamente).

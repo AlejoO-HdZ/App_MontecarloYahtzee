@@ -20,8 +20,8 @@ El objetivo es mostrar cómo se pueden simular partidas de Yahtzee, acumular res
 
 ### Pasos
 1. Clona este repositorio
-
 2. Ejecuta "Juego Yathzee/main.py"
+3. Simula partidas con boton: "Start partida" o crea Batch o lote de simulaciones con boton: "Batch N"
 
 3. ## 🔄 Flujo del juego
 

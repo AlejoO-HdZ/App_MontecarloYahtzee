@@ -2,7 +2,6 @@
 gui.py
 
 Interfaz Tkinter para controlar la simulación Yahtzee Montecarlo.
-
 - botones: Start, Histograma, Boxplot, Convergencia, Batch (verde), Descripción Probabilística
 - Botón Batch colocado junto a Convergencia; botón Descripción Probabilística al final con estilo naranja ("Warning.TButton").
 - tablero de puntuaciones en cuadrícula y estadísticas finales con porcentajes y explicación breve.
@@ -23,7 +22,6 @@ try:
     import matplotlib.pyplot as plt
 except Exception:
     plt = None
-
 try:
     import numpy as np
 except Exception:

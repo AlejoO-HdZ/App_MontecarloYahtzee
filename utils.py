@@ -1,12 +1,10 @@
 """
 utils.py
-
 Utilidades generales:
 - ui_log: logger thread-safe para la interfaz Tkinter.
 - timeit decorator para medir tiempos.
 - helpers para convertir GameState a dict (export).
 """
-
 import time
 from functools import wraps
 from typing import Callable, Any, Dict
@@ -21,7 +19,6 @@ def timeit(func: Callable) -> Callable:
         print(f"[timeit] {func.__name__} ejecutado en {t1-t0:.3f}s")
         return res
     return wrapper
-
 def game_state_to_dict(state) -> Dict:
     """Convierte un GameState a un dict serializable (resumen)."""
     players = []

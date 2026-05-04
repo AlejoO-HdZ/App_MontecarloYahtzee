@@ -5,13 +5,11 @@ Punto de arranque de la aplicación Yahtzee Montecarlo.
 import random
 import sys
 # Parámetros globales
-SIMS_PER_MASK = 300
-SEED = 42
-
+SIMS_PER_MASK = 300 # Default 300 pero se puede modificar en interfaz
+SEED = 42 # Semilla fijada
 # Inicializar semilla global
 if SEED is not None:
     random.seed(SEED)
-
 def run_app():
     """
     Inicia la GUI. Importaciones que dependen de otros módulos se hacen aquí
@@ -22,7 +20,6 @@ def run_app():
     except Exception as e:
         print("Error: tkinter no está disponible en este entorno.", e)
         sys.exit(1)
-
     # Importaciones tardías
     try:
         from gui import YahtzeeApp
